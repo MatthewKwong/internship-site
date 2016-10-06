@@ -1,0 +1,72 @@
+/*Fullscreen*/
+
+body,html,main {
+    /* important */
+    height: 100%;
+    margin: auto 0;
+}
+
+
+/*Background properties*/
+
+.backgrounds{
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.backgrounds.bg-1 {
+    background-image: url("images/house.jpg");
+}
+
+.backgrounds.bg-2 {
+    background-image: url("images/hill.jpg");
+}
+
+.backgrounds.bg-3 {
+    background-image: url("images/muni.jpg");
+}
+
+.backgrounds.bg-4 {
+    background-color:red;
+}
+
+
+/*Controls the size of text boxes */
+
+.text-boxes h1{
+    text-align: center;
+}
+.text-boxes {
+    background-color:grey;
+    border: solid 10px black;
+    padding-left:10%;
+    padding-right:10%;
+    min-height: 75%;
+    font-family: arial;
+}
+
+
+/*intro, first page*/
+
+#title {
+    text-shadow: 2px 2px grey;
+    text-align: center;
+    font-family: Open Sans;
+    padding-top: 10%;
+    color: white;
+    /*font-size:60px;*/
+    font-size: 3.5em;
+}
+
+#name {
+    text-shadow: 2px 2px grey;
+    text-align: center;
+    font-family: Open Sans;
+    padding-top: 10%;
+    margin: auto 0;
+    color: white;
+    font-size: 3em;
+}
